@@ -13,7 +13,19 @@
 3. run install-prometheus.sh
   - ./install-prometheus.yml
   
-4. prometheus --version and node_exporter --version should work
+4. prometheus --version and node_exporter --version should print the following
+
+prometheus, version 2.39.1 (branch: HEAD, revision: dcd6af9e0d56165c6f5c64ebbc1fae798d24933a)
+  build user:       root@273d60c69592
+  build date:       20221007-15:57:09
+  go version:       go1.19.2
+  platform:         linux/amd64
+  
+node_exporter, version 1.4.0 (branch: HEAD, revision: 7da1321761b3b8dfc9e496e1a60e6a476fec6018)
+  build user:       root@83d90983e89c
+  build date:       20220926-12:32:56
+  go version:       go1.19.1
+  platform:         linux/amd64
 
 5. run node_exporter in the background
   - node_exporter &
