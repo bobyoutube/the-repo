@@ -21,3 +21,7 @@
 6. run prometheus in the background
   - prometheus --config.file=prometheus.yml
 ```
+
+Now you should see your metrics in grafana 
+
+<img width="656" alt="Screen Shot 2022-11-05 at 5 56 46 PM" src="https://user-images.githubusercontent.com/117549023/200149033-e47a284d-1a51-405f-aa0a-10d75691d1f3.png">
